@@ -151,6 +151,7 @@
 				82D6358F27BAD4F200F1F63C /* Sources */,
 				82D6359027BAD4F200F1F63C /* Frameworks */,
 				82D6359127BAD4F200F1F63C /* Resources */,
+				0406D84B4982E70667B7306C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -208,6 +209,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0406D84B4982E70667B7306C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cinespetaculo/Pods-cinespetaculo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cinespetaculo/Pods-cinespetaculo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-cinespetaculo/Pods-cinespetaculo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		E6E1F992D4763133A46988D3 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
