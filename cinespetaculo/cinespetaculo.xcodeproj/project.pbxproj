@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E4E5E419D265BF3E5A44118 /* Pods_cinespetaculo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AD5627C8660FA0C8413F5E0 /* Pods_cinespetaculo.framework */; };
 		82D6359727BAD4F200F1F63C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D6359627BAD4F200F1F63C /* AppDelegate.swift */; };
 		82D6359927BAD4F200F1F63C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D6359827BAD4F200F1F63C /* SceneDelegate.swift */; };
 		82D6359B27BAD4F200F1F63C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D6359A27BAD4F200F1F63C /* ViewController.swift */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2AD5627C8660FA0C8413F5E0 /* Pods_cinespetaculo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cinespetaculo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		62AAA374E836A898534828B1 /* Pods-cinespetaculo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cinespetaculo.debug.xcconfig"; path = "Target Support Files/Pods-cinespetaculo/Pods-cinespetaculo.debug.xcconfig"; sourceTree = "<group>"; };
 		82D6359327BAD4F200F1F63C /* cinespetaculo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cinespetaculo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82D6359627BAD4F200F1F63C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		82D6359827BAD4F200F1F63C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		82D6359F27BAD4F400F1F63C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		82D635A227BAD4F400F1F63C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		82D635A427BAD4F400F1F63C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D12CC0E340C85141AEE69080 /* Pods-cinespetaculo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cinespetaculo.release.xcconfig"; path = "Target Support Files/Pods-cinespetaculo/Pods-cinespetaculo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E4E5E419D265BF3E5A44118 /* Pods_cinespetaculo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +96,8 @@
 			children = (
 				82D6359527BAD4F200F1F63C /* cinespetaculo */,
 				82D6359427BAD4F200F1F63C /* Products */,
+				B9F4E43D9DAEAD74F24C5100 /* Pods */,
+				9D6571513397959457C682BF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -115,6 +122,24 @@
 			path = cinespetaculo;
 			sourceTree = "<group>";
 		};
+		9D6571513397959457C682BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2AD5627C8660FA0C8413F5E0 /* Pods_cinespetaculo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B9F4E43D9DAEAD74F24C5100 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				62AAA374E836A898534828B1 /* Pods-cinespetaculo.debug.xcconfig */,
+				D12CC0E340C85141AEE69080 /* Pods-cinespetaculo.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,6 +147,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 82D635A727BAD4F400F1F63C /* Build configuration list for PBXNativeTarget "cinespetaculo" */;
 			buildPhases = (
+				E6E1F992D4763133A46988D3 /* [CP] Check Pods Manifest.lock */,
 				82D6358F27BAD4F200F1F63C /* Sources */,
 				82D6359027BAD4F200F1F63C /* Frameworks */,
 				82D6359127BAD4F200F1F63C /* Resources */,
@@ -180,6 +206,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E6E1F992D4763133A46988D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-cinespetaculo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		82D6358F27BAD4F200F1F63C /* Sources */ = {
@@ -332,6 +383,7 @@
 		};
 		82D635A827BAD4F400F1F63C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62AAA374E836A898534828B1 /* Pods-cinespetaculo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -359,6 +411,7 @@
 		};
 		82D635A927BAD4F400F1F63C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D12CC0E340C85141AEE69080 /* Pods-cinespetaculo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
